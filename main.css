@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #00BFA6;
+    --off-white: #F3F4F6;
+    --dark-gray: #6B7280;
+    --secondary-color: #355E98;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0rem;
+}
+
+header {
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.header-name {
+    color: var(--dark-gray);
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.header-email {
+    color: var(--primary-color);
+    float:right;
+    text-decoration: none;
+}
+
+.navigation {
+    padding: 0.1rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+    list-style: none;
+}
+
+.nav-pills li {
+    display: inline;
+    margin: 1rem;
+}
+
+.nav-pills li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav-pills .active {
+    font-weight: bold;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.heading-inverted {
+    color: var(--primary-color);
+}
+
+h1 {
+    text-align: center;
+}
+
+.container-off-white {
+    background-color: var(--off-white);
+    padding: 0.75rem;
+}
+
+a {
+    text-decoration: none;
+    color:var(--primary-color)
+}
+
+
+ul li {
+    color: var(--secondary-color);
+}
+
+
+/* ToDo make a link class with common properties and then secondary and primary classes */
+.button-link-primary {
+    /* Because normal inline elements block the top and bottom margin */
+    display: inline-block;
+    background-color: var(--primary-color);
+    border-radius: 0.75rem;
+    color: white;
+    padding: 0.5rem 1rem;
+    /* margin: 1rem 1rem 1rem 1rem; */
+    margin-top: 1rem;
+}
+
+.button-link-secondary {
+    display: inline-block;
+    border-radius: 0.75rem;
+    color: var(--primary-color);
+    /* border-color: var(--primary-color); */
+    /* border-width: 2px; */
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+footer h4 {
+    margin-bottom: 0px;
+    color: white;
+}
+footer ul {
+    list-style: none;
+    /* UL gives a default 40px padding */
+    padding-inline-start: 0px;
+
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0rem 0.5rem;
+}
+
+footer ul li a{
+    color: white;
+}
