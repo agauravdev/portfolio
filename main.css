@@ -137,3 +137,11 @@ footer ul li {
 footer ul li a{
     color: white;
 }
+
+.blog h1 {
+    text-align: left;
+}
+
+.blog .date {
+    font-size: smaller;
+}
